@@ -22,7 +22,7 @@ func main() {
 
 	// Build the layered handler stack (innermost → outermost)
 	//   proxy → auth → rate-limit → logging → CORS
-	upstream := proxy.New(cfg.UpstreamURL, log)
+	upstream := proxy.NewRouter(cfg.UpstreamURL, cfg.AgentURL, log)
 
 	authed := auth.Middleware(upstream, cfg.APIKeys, log)
 
