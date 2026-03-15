@@ -2,6 +2,7 @@
 // Health Bee — Tab 1 (Main Hub)
 
 import SwiftUI
+import UIKit
 
 struct HomeView: View {
     @Environment(\.theme) var theme
