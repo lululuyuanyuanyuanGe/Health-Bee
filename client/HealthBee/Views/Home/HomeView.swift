@@ -173,5 +173,3 @@ private struct DashboardFeedSection: View {
         }
     }
 }
-
-import UIKit
