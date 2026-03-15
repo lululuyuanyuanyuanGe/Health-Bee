@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct PersonaChip: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let name: String
     let isSelected: Bool
     let onTap: () -> Void

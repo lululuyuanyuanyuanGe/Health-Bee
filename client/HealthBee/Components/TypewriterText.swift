@@ -5,7 +5,7 @@
 import SwiftUI
 
 struct TypewriterText: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let fullText: String
     let font: Font
     let color: Color

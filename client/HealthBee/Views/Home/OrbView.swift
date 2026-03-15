@@ -6,7 +6,7 @@ import SwiftUI
 import UIKit
 
 struct OrbView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let mode: SessionMode
     let onTap: () -> Void
 

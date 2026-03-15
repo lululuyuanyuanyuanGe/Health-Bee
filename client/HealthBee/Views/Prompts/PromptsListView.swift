@@ -5,7 +5,7 @@ import SwiftUI
 import UIKit
 
 struct PromptsListView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @EnvironmentObject var appState: AppState
     @Environment(\.dismiss) var dismiss
 
@@ -143,7 +143,7 @@ struct PromptsListView: View {
 // MARK: - PromptCard
 
 struct PromptCard: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let persona: Persona
     let isSelected: Bool
     let onTap: () -> Void
@@ -222,7 +222,7 @@ struct PromptCard: View {
 // MARK: - Edit Persona View
 
 struct EditPersonaView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @Environment(\.dismiss) var dismiss
 
     @State private var persona: Persona

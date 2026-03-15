@@ -6,7 +6,7 @@ import SwiftUI
 import UIKit
 
 struct ModeSegmentedControl: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @Binding var selected: SessionMode
 
     private let options: [SessionMode] = [.duo, .solo]

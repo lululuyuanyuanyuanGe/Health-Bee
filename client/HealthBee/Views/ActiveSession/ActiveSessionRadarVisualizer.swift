@@ -5,7 +5,7 @@
 import SwiftUI
 
 struct ActiveSessionRadarVisualizer: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let sessionState: SessionState
 
     @State private var phase: Double = 0

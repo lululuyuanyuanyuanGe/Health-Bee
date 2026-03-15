@@ -1,6 +1,6 @@
-// Package proxy implements a reverse proxy that forwards requests to the
-// upstream Node.js backend. It handles both regular JSON responses and
-// Server-Sent Event (SSE) streams transparently.
+// Package proxy implements reverse proxies that forward requests to the
+// upstream Node.js backend and the Python agent server. It handles both
+// regular JSON responses and Server-Sent Event (SSE) streams transparently.
 package proxy
 
 import (
@@ -8,10 +8,26 @@ import (
 	"net/http"
 	"net/http/httputil"
 	"net/url"
+	"strings"
 	"time"
 
 	"github.com/healthbee/guard/internal/auth"
 )
+
+// NewRouter returns a handler that routes /agents/* to the Python agent server
+// and everything else to the Node.js backend.
+func NewRouter(upstreamURL, agentURL string, log *slog.Logger) http.Handler {
+	backend := New(upstreamURL, log)
+	agents := New(agentURL, log)
+
+	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		if strings.HasPrefix(r.URL.Path, "/agents") {
+			agents.ServeHTTP(w, r)
+		} else {
+			backend.ServeHTTP(w, r)
+		}
+	})
+}
 
 // New creates a reverse-proxy handler that forwards every request to upstreamURL.
 func New(upstreamURL string, log *slog.Logger) http.Handler {

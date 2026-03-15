@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct SessionRow: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let session: ChatSession
     let onTap: () -> Void
     let onDelete: () -> Void

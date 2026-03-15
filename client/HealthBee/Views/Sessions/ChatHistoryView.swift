@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct ChatHistoryView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @EnvironmentObject var appState: AppState
     let session: ChatSession
     let onDismiss: () -> Void

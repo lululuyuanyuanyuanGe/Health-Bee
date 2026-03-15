@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @EnvironmentObject var appState: AppState
 
     var body: some View {

@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct UplinkChip: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let icon: String
     let name: String
     let isOnline: Bool

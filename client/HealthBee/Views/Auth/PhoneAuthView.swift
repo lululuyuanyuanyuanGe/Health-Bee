@@ -12,7 +12,7 @@ enum AuthStep {
 }
 
 struct PhoneAuthView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
 
     @State private var step: AuthStep = .phone
     @State private var phoneNumber: String = ""

@@ -5,7 +5,7 @@ import SwiftUI
 import UIKit
 
 struct SettingsView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @EnvironmentObject var appState: AppState
     @EnvironmentObject var themeManager: ThemeManager
 
@@ -167,7 +167,7 @@ struct SettingsView: View {
 // MARK: - Voice Identity Row
 
 private struct VoiceIdentityRow: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @Binding var enrollmentStatus: EnrollmentStatus
 
     var iconName: String {
@@ -250,7 +250,7 @@ private struct VoiceIdentityRow: View {
 // MARK: - Engine Picker
 
 struct EnginePicker: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let label: String
     let options: [String]
     @Binding var selected: String
@@ -292,7 +292,7 @@ struct EnginePicker: View {
 // MARK: - Debug Views
 
 private struct OrbDebugView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @State private var mode: SessionMode = .duo
 
     var body: some View {
@@ -308,7 +308,7 @@ private struct OrbDebugView: View {
 }
 
 private struct ThemeDebugView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
 
     var body: some View {
         ZStack {

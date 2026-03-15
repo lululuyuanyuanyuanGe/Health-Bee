@@ -6,7 +6,7 @@ import UIKit
 import AudioToolbox
 
 struct ActiveSessionView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @EnvironmentObject var appState: AppState
     @Environment(\.dismiss) var dismiss
 
@@ -212,7 +212,7 @@ struct ActiveSessionView: View {
 // MARK: - Top HUD
 
 private struct TopHUD: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let statusText: String
     let statusDotColor: Color
     let personaName: String
@@ -245,7 +245,7 @@ private struct TopHUD: View {
 // MARK: - Turn Block
 
 private struct TurnBlock: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let message: ChatMessage
 
     var label: String {
@@ -285,7 +285,7 @@ private struct TurnBlock: View {
 // MARK: - Live Turn Block
 
 private struct LiveTurnBlock: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let transcript: String
     let sessionState: SessionState
 
@@ -329,7 +329,7 @@ private struct LiveTurnBlock: View {
 // MARK: - Text Input Bar
 
 private struct TextInputBar: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @Binding var text: String
     let onSend: () -> Void
 

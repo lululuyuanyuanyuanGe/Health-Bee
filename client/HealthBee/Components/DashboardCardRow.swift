@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct DashboardCardRow: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let card: DashboardCard
 
     private var icon: String {

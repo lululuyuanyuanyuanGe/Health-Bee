@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct InsightRow: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let insight: Insight
     let onToggle: () -> Void
 

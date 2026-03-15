@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct SessionsListView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @EnvironmentObject var appState: AppState
 
     @State private var isEditing: Bool = false

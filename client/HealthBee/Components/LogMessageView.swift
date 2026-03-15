@@ -4,7 +4,7 @@
 import SwiftUI
 
 struct LogMessageView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     let message: ChatMessage
 
     var body: some View {

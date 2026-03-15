@@ -5,7 +5,7 @@ import SwiftUI
 import UIKit
 
 struct HomeView: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @EnvironmentObject var appState: AppState
 
     var body: some View {
@@ -51,7 +51,7 @@ struct HomeView: View {
 // MARK: - Persona Carousel Section
 
 private struct PersonaCarouselSection: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @EnvironmentObject var appState: AppState
     @State private var showPromptSheet = false
 
@@ -113,7 +113,7 @@ private struct PersonaCarouselSection: View {
 // MARK: - Dashboard Feed Section
 
 private struct DashboardFeedSection: View {
-    @Environment(\.theme) var theme
+    @Environment(\.theme) var theme: AppTheme
     @EnvironmentObject var appState: AppState
 
     var body: some View {
