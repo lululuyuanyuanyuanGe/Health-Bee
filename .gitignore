@@ -1,0 +1,40 @@
+# ── Swift / Xcode ──────────────────────────────────────────────
+client/.build/
+client/DerivedData/
+*.xcuserstate
+*.xcuserdatad/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ── Node.js ────────────────────────────────────────────────────
+backend/node_modules/
+backend/dist/
+backend/.env
+
+# ── Python ─────────────────────────────────────────────────────
+agents/__pycache__/
+agents/**/__pycache__/
+agents/.venv/
+agents/venv/
+agents/.env
+*.pyc
+*.pyo
+
+# ── Go ─────────────────────────────────────────────────────────
+guard/guard
+guard/.env
+
+# ── OS / editors ───────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.env
+*.swp
+*.swo
+.idea/
+.vscode/
