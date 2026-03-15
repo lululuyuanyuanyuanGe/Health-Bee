@@ -9,6 +9,7 @@ import (
 type config struct {
 	ListenAddr     string
 	UpstreamURL    string
+	AgentURL       string            // Python agent server
 	APIKeys        map[string]string // token → client name
 	AllowedOrigins []string
 	RateLimit      float64 // requests per second per client
@@ -19,8 +20,9 @@ func loadConfig() config {
 	cfg := config{
 		ListenAddr:  env("GUARD_ADDR", ":8080"),
 		UpstreamURL: env("UPSTREAM_URL", "http://localhost:3000"),
-		RateLimit:   envFloat("RATE_LIMIT_RPS", 2),   // 2 req/s sustained
-		RateBurst:   envInt("RATE_BURST", 10),          // up to 10 in a burst
+		AgentURL:    env("AGENT_URL", "http://localhost:4000"),
+		RateLimit:   envFloat("RATE_LIMIT_RPS", 2),
+		RateBurst:   envInt("RATE_BURST", 10),
 	}
 
 	// ALLOWED_ORIGINS=https://app.example.com,https://other.example.com
