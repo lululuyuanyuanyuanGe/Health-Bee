@@ -1,0 +1,180 @@
+{
+  "": {
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/master.swiftdeps"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/App/ContentView.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ContentView.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ContentView.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ContentView~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ContentView.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ContentView.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/App/HealthBeeApp.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/HealthBeeApp.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/HealthBeeApp.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/HealthBeeApp~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/HealthBeeApp.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/HealthBeeApp.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Components/DashboardCardRow.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/DashboardCardRow.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/DashboardCardRow.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/DashboardCardRow~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/DashboardCardRow.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/DashboardCardRow.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Components/InsightRow.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/InsightRow.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/InsightRow.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/InsightRow~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/InsightRow.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/InsightRow.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Components/LiveTranscriptText.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/LiveTranscriptText.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/LiveTranscriptText.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/LiveTranscriptText~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/LiveTranscriptText.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/LiveTranscriptText.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Components/LogMessageView.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/LogMessageView.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/LogMessageView.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/LogMessageView~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/LogMessageView.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/LogMessageView.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Components/ModeSegmentedControl.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ModeSegmentedControl.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ModeSegmentedControl.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ModeSegmentedControl~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ModeSegmentedControl.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ModeSegmentedControl.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Components/PersonaChip.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PersonaChip.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PersonaChip.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PersonaChip~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PersonaChip.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PersonaChip.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Components/SessionRow.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SessionRow.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SessionRow.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SessionRow~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SessionRow.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SessionRow.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Components/TypewriterText.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/TypewriterText.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/TypewriterText.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/TypewriterText~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/TypewriterText.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/TypewriterText.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Components/UplinkChip.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/UplinkChip.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/UplinkChip.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/UplinkChip~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/UplinkChip.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/UplinkChip.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/DesignSystem/AppTheme.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppTheme.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppTheme.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppTheme~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppTheme.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppTheme.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/DesignSystem/ThemeEnvironment.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ThemeEnvironment.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ThemeEnvironment.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ThemeEnvironment~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ThemeEnvironment.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ThemeEnvironment.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/DesignSystem/TypographyModifiers.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/TypographyModifiers.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/TypographyModifiers.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/TypographyModifiers~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/TypographyModifiers.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/TypographyModifiers.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Models/AppModels.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppModels.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppModels.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppModels~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppModels.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppModels.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Models/AppState.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppState.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppState.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppState~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppState.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/AppState.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Views/ActiveSession/ActiveSessionRadarVisualizer.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ActiveSessionRadarVisualizer.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ActiveSessionRadarVisualizer.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ActiveSessionRadarVisualizer~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ActiveSessionRadarVisualizer.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ActiveSessionRadarVisualizer.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Views/ActiveSession/ActiveSessionView.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ActiveSessionView.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ActiveSessionView.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ActiveSessionView~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ActiveSessionView.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ActiveSessionView.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Views/Auth/PhoneAuthView.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PhoneAuthView.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PhoneAuthView.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PhoneAuthView~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PhoneAuthView.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PhoneAuthView.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Views/Home/HomeView.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/HomeView.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/HomeView.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/HomeView~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/HomeView.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/HomeView.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Views/Home/OrbView.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/OrbView.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/OrbView.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/OrbView~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/OrbView.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/OrbView.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Views/Prompts/PromptsListView.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PromptsListView.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PromptsListView.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PromptsListView~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PromptsListView.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/PromptsListView.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Views/Sessions/ChatHistoryView.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ChatHistoryView.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ChatHistoryView.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ChatHistoryView~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ChatHistoryView.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/ChatHistoryView.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Views/Sessions/SessionsListView.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SessionsListView.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SessionsListView.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SessionsListView~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SessionsListView.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SessionsListView.dia"
+  },
+  "/Users/luyuan/Projects/Health-Bee/client/HealthBee/Views/Settings/SettingsView.swift": {
+    "dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SettingsView.d",
+    "object": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SettingsView.swift.o",
+    "swiftmodule": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SettingsView~partial.swiftmodule",
+    "swift-dependencies": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SettingsView.swiftdeps",
+    "diagnostics": "/Users/luyuan/Projects/Health-Bee/client/.build/index-build/arm64-apple-macosx/debug/HealthBee.build/SettingsView.dia"
+  }
+}
